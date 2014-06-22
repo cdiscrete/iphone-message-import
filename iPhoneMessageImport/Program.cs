@@ -154,7 +154,7 @@ namespace Infiks.IPhone
             dt.Columns.Add("Type", typeof(string));
             dt.Columns.Add("Text", typeof(string));
 
-            using (var sr = new StreamReader(fileName, Encoding.Default))
+            using (var sr = new StreamReader(fileName, System.Text.Encoding.UTF8))
             {
                 String line;
                 while ((line = sr.ReadLine()) != null)
