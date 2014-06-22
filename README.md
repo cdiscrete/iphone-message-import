@@ -1,6 +1,6 @@
 iPhone message import
 ===============
-
+This project is forked from [erikvdv1](https://github.com/erikvdv1/iphone-message-import). To avoid all kinds of problems of different encodings, this version ONLY support an UTF-8 input file.
 Imports tab-separated text messages (SMS messages from your previous phone) into the text message database of an iPhone backup.
 This backup can then be restored to the iPhone with iTunes.
 
